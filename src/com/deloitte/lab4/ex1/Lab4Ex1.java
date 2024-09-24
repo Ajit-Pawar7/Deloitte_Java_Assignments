@@ -124,8 +124,8 @@ class CurrentAccount extends Account {
 
 public class Lab4Ex1 {
  public static void main(String[] args) {
-     Person smith = new Person("Smith", 30.5f);
-     Person kathy = new Person("Kathy", 25.5f);
+     Person smith = new Person("Virat", 30.5f);
+     Person kathy = new Person("Rohit", 25.5f);
 
      SavingsAccount smithAccount = new SavingsAccount(smith, 2000);
      CurrentAccount kathyAccount = new CurrentAccount(kathy, 3000);
